@@ -3,7 +3,7 @@ const btn = document.querySelector(".btn");
 btn.addEventListener("click", play);
 
 function play(e) {
-  e.preventDefault();
+  // e.preventDefault();
 
   let num1 = Math.floor(Math.random() * 6) + 1;
   let num2 = Math.floor(Math.random() * 6) + 1;
