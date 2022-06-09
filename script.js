@@ -11,9 +11,9 @@ function play(e) {
   document.querySelector(".img2").src = `images/dice${num2}.png`;
 
   if (num1 > num2) {
-    document.querySelector(".title").innerText = "player 1 win";
+    document.querySelector(".title").innerText = "Player 1 Win";
   } else if (num1 < num2) {
-    document.querySelector(".title").innerText = "player 2 win";
+    document.querySelector(".title").innerText = "Player 2 Win";
   } else {
     document.querySelector(".title").innerText = "Draw";
   }
